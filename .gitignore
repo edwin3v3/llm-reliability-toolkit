@@ -8,3 +8,4 @@
 .env.test
 .env.production 
 history_commands.txt
+personal-log.md
