@@ -1,0 +1,1000 @@
+  997  cd moringa/phase4
+  998  clear
+  999  ls
+ 1000  cd knowledge-base/
+ 1001  clear
+ 1002  git branch
+ 1003  git branch edwin/development
+ 1004  git switch edwin/development 
+ 1005  git branch
+ 1006  clear
+ 1007  git pull origin development 
+ 1008  clear
+ 1009  code .
+ 1010  flask run
+ 1011  pipenv shell'
+ 1012  pipenv shell
+ 1013  cd server
+ 1014  pipenv shell
+ 1015  flask run
+ 1016  cd client/
+ 1017  npm run dev
+ 1018  flask run
+ 1019  git status
+ 1020  git branch edwin/main
+ 1021  git branch
+ 1022  git switch edwin/main 
+ 1023  clear
+ 1024  git status
+ 1025  git add Pipfile
+ 1026  git commit -m "RERUN install script"
+ 1027  git add app.py seed_data.py 
+ 1028  git commit -m "Fixed DB Seeding"
+ 1029  clear
+ 1030  flask run
+ 1031  git switch development 
+ 1032  git switch edwin/development 
+ 1033  flask run
+ 1034  cd ..
+ 1035  cd ..
+ 1036  cd server
+ 1037  flask run
+ 1038  clear
+ 1039  cd ..
+ 1040  exit
+ 1041  cd ..
+ 1042  exit
+ 1043  cd client/
+ 1044  npm run dev
+ 1045  npm install lucide-react @headlessui/react
+ 1046  npm run dev
+ 1047  npm list tailwindcss postcss autoprefixer
+ 1048  npm install -D tailwindcss@latest postcss autoprefixer
+ 1049  npm run dev
+ 1050  cd ..
+ 1051  code .
+ 1052  cd ..
+ 1053  cd ccpizza/
+ 1054  exit
+ 1055  python server/app.py
+ 1056  clear
+ 1057  python server/seed.py
+ 1058  export FLASK_APP=server/app.py
+ 1059  flask db init
+ 1060  flask db migrate
+ 1061  flask db upgrade
+ 1062  code .
+ 1063  flask db revision --autogenerate -m "Revise DB with relationships"
+ 1064  flask db upgrade head
+ 1065  python server/seed.py
+ 1066  clear
+ 1067  flask run
+ 1068  git status
+ 1069  git add server/models.py
+ 1070  git commit -m "Added Relationship to Restaurant"
+ 1071  git add server/models.py
+ 1072  git add server/models1.py
+ 1073  git commit -m "Added Relationship to Pizza"
+ 1074  git revert HEAD
+ 1075  git add server/models.py
+ 1076  ls
+ 1077  cd server/
+ 1078  ls
+ 1079  git status
+ 1080  git add models.py
+ 1081  ls
+ 1082  git status
+ 1083  git add models.py
+ 1084  git status
+ 1085  git add models.py
+ 1086  git commit -m "Added Relationship to Restaurant"
+ 1087  git add models.py
+ 1088  git commit -m "Added Relationship to Pizza"
+ 1089  clear
+ 1090  git add models.py
+ 1091  git commit -m "Added Relationship to RestaurantPizza"
+ 1092  git add models.py
+ 1093  git commit -m "Added Cascade Configurationsa"
+ 1094  git add models.py
+ 1095  git commit -m "Added Cascade configuration to RestaurantPizza"
+ 1096  git add models.py
+ 1097  git commit -m "Added serialia"
+ 1098  git add models.py
+ 1099  git commit -m "Added Validation to RestaurantPizza"
+ 1100  git add app.py
+ 1101  git commit -m "Added GET/ALL Restaurants"
+ 1102  clear
+ 1103  git add app.py
+ 1104  git commit -m "Added GET/ID Restaurant"
+ 1105  git add app.py
+ 1106  git commit -m "Added DELETE/ID Restaurant"
+ 1107  git status
+ 1108  clear
+ 1109  @app.route('/pizzas', methods=['GET'])
+ 1110  def get_pizzas():
+ 1111  clear
+ 1112  git add app.py
+ 1113  git commit -m "Added GET/ALL Pizzas"
+ 1114  git status
+ 1115  git add app.py
+ 1116  git commit -m "Added POST for RestaurantPizza"
+ 1117  clear
+ 1118  cd ..
+ 1119  git status
+ 1120  clear
+ 1121  git status
+ 1122  cd server/
+ 1123  git add debug.py seed.py
+ 1124  git commit -m "Fixed Import Errors"
+ 1125  cd testing/
+ 1126  git add app_test.py models_test.py 
+ 1127  git commit -m "Fixed Import Errors"
+ 1128  cd ..
+ 1129  git status
+ 1130  clear
+ 1131  git status
+ 1132  git add migrations/
+ 1133  git commit -m "Database Initialization"
+ 1134  clear
+ 1135  git status
+ 1136  git add server/.gitignore 
+ 1137  git commit -m "Added File"
+ 1138  flask run
+ 1139  git status
+ 1140  git add server/app.py 
+ 1141  git commit -m "Fixed Import Error"
+ 1142  git branch
+ 1143  clear
+ 1144  git push -u origin main
+ 1145  python server/seed.py
+ 1146  git status
+ 1147  git add server/seed.py 
+ 1148  git commit -m "Fix Import Errors"
+ 1149  git push -u origin main
+ 1150  clear
+ 1151  python server/seed.py
+ 1152  git status
+ 1153  git add server/.gitignore server/app.db
+ 1154  git commit -m "Uploaded Database"
+ 1155  git push -u origin main
+ 1156  clear
+ 1157  git status
+ 1158  git add server/testing/app_test.py 
+ 1159  git commit -m "Added Db initialization"
+ 1160  git push -u origin main
+ 1161  git status]
+ 1162  git status
+ 1163  git add server/app.py
+ 1164  git status
+ 1165  git commit -m "Fixed 404 Error"
+ 1166  git push -u origin main
+ 1167  clear
+ 1168  git status
+ 1169  git add server/app.py 
+ 1170  git commit -m "Fixed Context Errors"
+ 1171  git push -u origin main
+ 1172  clear
+ 1173  git status
+ 1174  git add server/app.py server/models.py 
+ 1175  git commit -m "Fix context errors"
+ 1176  git push -u origin main
+ 1177  clear
+ 1178  git status
+ 1179  git add server/testing/app_test.py 
+ 1180  git commit -m "Fixing Context Errors"
+ 1181  git push -u origin main
+ 1182  clear
+ 1183  git status
+ 1184  git add server/__init__.py 
+ 1185  git commit -m "Added init file"
+ 1186  git push -u origin main
+ 1187  PYTHONPATH=server pytest
+ 1188  clear
+ 1189  PYTHONPATH=. pytest
+ 1190  git status
+ 1191  git add server/app.py server/testing/app_test.py server/testing/__init__.py 
+ 1192  git commit -m "Fix Context Errors"
+ 1193  git push -u origin main
+ 1194  PYTHONPATH=. pytest
+ 1195  clear
+ 1196  git status
+ 1197  git add server/app.db server/app.py server/testing/app_test.py 
+ 1198  git commit -m "Fixing Context errors"
+ 1199  git push -u origin main
+ 1200  clear
+ 1201  git status
+ 1202  git add server/models.py 
+ 1203  git commit -m "Fixed import error"
+ 1204  git push -u origin main
+ 1205  clear
+ 1206  git status
+ 1207  git add server/app.py server/models.py server/extensions.py 
+ 1208  git commit -m "Fix import Errors"
+ 1209  git push -u origin main
+ 1210  clear
+ 1211  git status
+ 1212  git add server/testing/app_test.py 
+ 1213  git commit -m "Fixed import errors"
+ 1214  git push -u origin main
+ 1215  git status
+ 1216  git add server/app.py server/models.py server/testing/app_test.py server/testing/models_test.py 
+ 1217  git commit -m "Fixed import errors"
+ 1218  git push -u origin main
+ 1219  clear
+ 1220  python server/manage.py recreate_db
+ 1221  python server/seed.py
+ 1222  git status
+ 1223  git add server/app.db server/debug.py server/manage.py 
+ 1224  git commit -m "Recreated the Database"
+ 1225  git push -u origin main
+ 1226  clear
+ 1227  git status
+ 1228  rm server/app.db 
+ 1229  git status
+ 1230  python server/seed.py
+ 1231  clear
+ 1232  python server/manage.py recreate_db
+ 1233  python server/seed.py
+ 1234  clear
+ 1235  git status
+ 1236  git add server/app.db server/models.py server/testing/conftest.py 
+ 1237  git commit -m "resolved import errors"
+ 1238  git push -u origin main
+ 1239  git status
+ 1240  git add server/models.py 
+ 1241  git commit -m "Fix circular errors"
+ 1242  git push -u origin main
+ 1243  clear
+ 1244  exit
+ 1245  clear
+ 1246  git status
+ 1247  clear
+ 1248  flask run
+ 1249  export FLASK_APP=server/app.py
+ 1250  flask db migrate
+ 1251  flask db upgrade head
+ 1252  clear
+ 1253  git status
+ 1254  git add migrations/versions/cfe49abb5c53_.py 
+ 1255  git status
+ 1256  git commit -m "Database Migration"
+ 1257  git push -u origin main
+ 1258  git status
+ 1259  clear
+ 1260  export FLASK_APP=server/app.py
+ 1261  flask db init
+ 1262  flask db migrate
+ 1263  flask db upgrade head
+ 1264  clear
+ 1265  flask db revision --autogenerate -m "revision of db"
+ 1266  flask db upgrade head
+ 1267  python server/seed.py
+ 1268  python seed.py
+ 1269  cd server/
+ 1270  python seed.py
+ 1271  flask run
+ 1272  cd ..
+ 1273  flask run
+ 1274  cd ..
+ 1275  exit
+ 1276  cd moringa/phase4/knowledge-base/
+ 1277  cd server/
+ 1278  pipenv shell
+ 1279  cd ..
+ 1280  cd ccpizza/
+ 1281  pipenv shell
+ 1282  exit
+ 1283  cd moringa/phase4/chatterbox/
+ 1284  npm start
+ 1285  cd client/
+ 1286  clear
+ 1287  npm start
+ 1288  cd moringa/phase4
+ 1289  cd chatterbox/server/
+ 1290  flask run
+ 1291  pipenv shell
+ 1292  flask run
+ 1293  cd server/
+ 1294  flask run
+ 1295  cd server
+ 1296  clear
+ 1297  git status
+ 1298  git add models.py 
+ 1299  git commit -m "Added Model Attributes"
+ 1300  flask db init
+ 1301  flask db revsion --autogenerate -m "DB Initialization"
+ 1302  flask db revsion --autogenerate -m 'DB Initialization'
+ 1303  flask db revision --autogenerate -m 'DB Initialization'
+ 1304  flask db upgrade
+ 1305  python seed.py
+ 1306  clear
+ 1307  git status
+ 1308  git add ../client/db.json 
+ 1309  git commit -m "Updated db.json"
+ 1310  git add migrations/
+ 1311  git commit -m "DB Initalization"
+ 1312  git add app.py 
+ 1313  git commit -m "Added GET/ALL route"
+ 1314  clear
+ 1315  git add app.py 
+ 1316  git commit -m "Added POST route"
+ 1317  git add app.py 
+ 1318  git commit -m "Added PATCH route"
+ 1319  git add app.py 
+ 1320  git commit -m "Added DELETE route"
+ 1321  git status
+ 1322  git add app.py 
+ 1323  git commit -m "Fix Errors"
+ 1324  git push -u origin main
+ 1325  cd ..
+ 1326  exit
+ 1327  cd moringa/phase4
+ 1328  cd knowledge-base/
+ 1329  clear
+ 1330  git branch
+ 1331  git switch main
+ 1332  git branch
+ 1333  git status
+ 1334  git add client/src/components/Sidebar.jsx client/src/pages/ArticleView.jsx 
+ 1335  git commit -m "Fix Button Names"
+ 1336  git staus
+ 1337  git status
+ 1338  clear
+ 1339  git branch
+ 1340  git push -u origin edwin/development 
+ 1341  clear
+ 1342  git switch main
+ 1343  git pull origin main
+ 1344  clear
+ 1345  git branch
+ 1346  clear
+ 1347  code .
+ 1348  cd server/
+ 1349  flask run
+ 1350  pipenv install -r requirements.txt
+ 1351  pipenv shell
+ 1352  cd ..
+ 1353  git clone git@github.com:edwin3v3/ccpizza.git
+ 1354  cd ccpizza/
+ 1355  clea
+ 1356  clear
+ 1357  ls
+ 1358  cd server/
+ 1359  pipenv install
+ 1360  pipenv shell
+ 1361  cd ..
+ 1362  cd client/
+ 1363  ls
+ 1364  npm install --prefix client
+ 1365  cd ..
+ 1366  npm install --prefix client
+ 1367  clear
+ 1368  python app.py
+ 1369  python server/app.py
+ 1370  cd server/
+ 1371  ls
+ 1372  git status
+ 1373  cd ..
+ 1374  pipenv shell
+ 1375  cd ..
+ 1376  clear
+ 1377  git clone git@github.com:edwin3v3/chatterbox.git
+ 1378  ls
+ 1379  cd chatterbox/
+ 1380  clear
+ 1381  ls
+ 1382  cd client/
+ 1383  npm install
+ 1384  ls
+ 1385  npm install
+ 1386  npm run server
+ 1387  clear
+ 1388  cd..
+ 1389  cd ..
+ 1390  git clone git@github.com:edwin3v3/iamp4.git
+ 1391  cd iamp4/
+ 1392  ls
+ 1393  pipenv install
+ 1394  cd ..
+ 1395  clear
+ 1396  cd flsksqlchmy2/
+ 1397  ls
+ 1398  clear
+ 1399  cd moringa/phase5
+ 1400  ssh -T git@github.com
+ 1401  cd /
+ 1402  cd ..
+ 1403  cd moringa/
+ 1404  ls
+ 1405  cd phase4
+ 1406  ls
+ 1407  cd..
+ 1408  cd ..
+ 1409  mkdir phase5
+ 1410  cls
+ 1411  ls
+ 1412  cd phase5
+ 1413  git clone git@github.com:Jwanjema/GreenFund-test-Frontend.git
+ 1414  clear
+ 1415  git clone git@github.com:Jwanjema/GreenFund-test-Frontend.git
+ 1416  clear
+ 1417  ls
+ 1418  clear
+ 1419  git clone git@github.com:edwin3v3/GreenFund-test-Frontend.git
+ 1420  cd ..
+ 1421  cd ssh/login
+ 1422  .ssh/config
+ 1423  cd .ssh/
+ 1424  ls
+ 1425  known_hosts
+ 1426  cd ..
+ 1427  cd moringa/phase5
+ 1428  git clone https://github.com/edwin3v3/GreenFund-test-Backend.git
+ 1429  ls
+ 1430  clear
+ 1431  exit
+ 1432  cd moringa/phase5
+ 1433  clear
+ 1434  git clone --help
+ 1435  git --help
+ 1436  clear
+ 1437  git clone --verbose https://github.com/edwin3v3/GreenFund-test-Backend.git
+ 1438  cd moringa/phase5
+ 1439  git clone git@github.com:edwin3v3/the-mission.git
+ 1440  clear
+ 1441  cd ..
+ 1442  ssh -vvvT git@github.com
+ 1443  ckear
+ 1444  clear
+ 1445  nano ~/.ssh/config
+ 1446  ssh -T git@github.com
+ 1447  ssh -vvvT git@github.com
+ 1448  cd moringa/phase5
+ 1449  git clone git@github.com:edwin3v3/GreenFund-test-Frontend.git
+ 1450  git
+ 1451  clear
+ 1452  cd moringa/phase5
+ 1453  git clone git@github.com:edwin3v3/GreenFund-test-Frontend.git
+ 1454  ls
+ 1455  clear
+ 1456  git clone git@github.com:edwin3v3/GreenFund-test-Frontend.git
+ 1457  exit
+ 1458  cd moringa/phase4
+ 1459  git clone git@github.com:edwin3v3/GreenFund-test-Frontend.git
+ 1460  exit
+ 1461  nano ~/.ssh/config
+ 1462  exit
+ 1463  ssh -vvvT git@github.com
+ 1464  cd moringa/phase4
+ 1465  git clone git@github.com:edwin3v3/GreenFund-test-Frontend.git
+ 1466  cd ..
+ 1467  nano ~/.ssh/config
+ 1468  clear
+ 1469  exit
+ 1470  cd moringa/phase5
+ 1471  git clone git@github.com:edwin3v3/GreenFund-test-Frontend.git
+ 1472  cd ..
+ 1473  ssh -p 54321 git@github.com
+ 1474  nano ~/.ssh/config
+ 1475  exit
+ 1476  ssh -T git@github.com
+ 1477  ssh -vvvT git@github.com
+ 1478  exit
+ 1479  nano ~/.ssh/config
+ 1480  ssh -vvvT git@github.com
+ 1481  nano ~/.ssh/config
+ 1482  ssh -vvvT git@github.com
+ 1483  cd moringa/phase5
+ 1484  clear
+ 1485  git clone git@github.com:edwin3v3/smart-goal-planner.git
+ 1486  cd ..
+ 1487  nano ~/.ssh/config
+ 1488  ssh -vvvT git@github.com
+ 1489  cd moringa/phase5/
+ 1490  git clone git@github.com:edwin3v3/smart-goal-planner.git
+ 1491  exit
+ 1492  cd moringa/phase5
+ 1493  git clone git@github.com:edwin3v3/smart-goal-planner.git
+ 1494  exit
+ 1495  nano ~/.ssh/config
+ 1496  exit
+ 1497  nano ~/.ssh/config
+ 1498  cd moringa/phase5
+ 1499  git clone git@github.com:edwin3v3/smart-goal-planner.git
+ 1500  mkdir greenfund-test-backend
+ 1501  cd greenfund-test-backend/
+ 1502  cd ..
+ 1503  mv -r phase5 project
+ 1504  mv -R phase5 project
+ 1505  mv phase5 project
+ 1506  ls
+ 1507  mkdir phase5
+ 1508  ls
+ 1509  cd phase5
+ 1510  clear
+ 1511  git clone git@github.com:Jwanjema/GreenFund-test-Backend.git
+ 1512  git clone git@github.com:Jwanjema/GreenFund-test-Frontend.git
+ 1513  cd GreenFund-test-Backend/
+ 1514  clear
+ 1515  code .
+ 1516  docker compose up --build
+ 1517  source venv/bin/activate
+ 1518  docker compose up --build
+ 1519  deactivate
+ 1520  cd ..
+ 1521  exit
+ 1522  sudo apt-get update
+ 1523  sudo apt upgrade
+ 1524  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+ 1525  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+ 1526  sudo apt-get update
+ 1527  clear
+ 1528  sudo apt-get install ca-certificates curl
+ 1529  sudo install -m 0755 -d /etc/apt/keyrings
+ 1530  sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+ 1531  sudo chmod a+r /etc/apt/keyrings/docker.asc
+ 1532  clear
+ 1533  sudo apt update && sudo apt upgrade -y --fix-missing
+ 1534  sudo apt install -y --fix-missing? apt-transport-https ca-certificates curl software-properties-common
+ 1535  sudo apt install -y --fix-missing apt-transport-https ca-certificates curl software-properties-common
+ 1536  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+ 1537  docker run hello-world
+ 1538  cd moringa/phase5
+ 1539  ls
+ 1540  cd GreenFund-test-Backend/
+ 1541  source venv/bin/activate
+ 1542  docker compose up --build
+ 1543  deactivate
+ 1544  docker compose up --build
+ 1545  code .
+ 1546  clear
+ 1547  code .
+ 1548  docker hello-world
+ 1549  cd moringa/phase5
+ 1550  ls
+ 1551  cd GreenFund-test-Backend/
+ 1552  code .
+ 1553  cd ..
+ 1554  cd GreenFund-test-Frontend/
+ 1555  code .
+ 1556  git pull origin main
+ 1557  git status
+ 1558  cd ..
+ 1559  ls
+ 1560  cd ..
+ 1561  cd project
+ 1562  ls
+ 1563  rm -R greenfund-test-backend
+ 1564  ls
+ 1565  git clone git@github.com:edwin3v3/greenfund-backend.git
+ 1566  code .
+ 1567  cd greenfund-backend/
+ 1568  source venv/bin/activate
+ 1569  code .
+ 1570  git status
+ 1571  git branch
+ 1572  git checkout -b development origin/development
+ 1573  git branch
+ 1574  clear
+ 1575  source venv/bin/activate
+ 1576  docker compose up --build
+ 1577  docker compose up --build
+ 1578  git branch
+ 1579  git status
+ 1580  git add app/routers/auth.py tests/test_auth.py 
+ 1581  git status
+ 1582  docker compose up --build
+ 1583  cd moringa/
+ 1584  cd phase5
+ 1585  ls
+ 1586  cd GreenFund-test-Backend/
+ 1587  code .
+ 1588  git pull origin main
+ 1589  git fetch origin
+ 1590  git reset --hard origin/main
+ 1591  git status
+ 1592  cd ..
+ 1593  GreenFund-test-Frontend/
+ 1594  cd GreenFund-test-Frontend/
+ 1595  clear
+ 1596  git status
+ 1597  git pull origin main
+ 1598  git status
+ 1599  git diff main origin/main
+ 1600  git diff --name-only main origin/main
+ 1601  git fetch origin
+ 1602  git reset --hard origin/main
+ 1603  clear
+ 1604  git pull origin main
+ 1605  clear
+ 1606  git status
+ 1607  git pull origin main
+ 1608  code .
+ 1609  cd ..
+ 1610  git branch
+ 1611  git status
+ 1612  git checkout -b feature-documentation-credits
+ 1613  git status
+ 1614  git add README.md 
+ 1615  git commit -m "Added github links of Authors"
+ 1616  git push origin feature-documentation-credits 
+ 1617  git checkout -b feature-documentation-screenshots
+ 1618  git status
+ 1619  git add public/screenshots/
+ 1620  git commit -m "Added screenshots of App"
+ 1621  git push origin feature-documentation-screenshots 
+ 1622  git status
+ 1623  git add README.md 
+ 1624  git commit -m "Added Screenshot Section"
+ 1625  git status
+ 1626  git add README.md 
+ 1627  git commit -m "Updated Screenshot Section"
+ 1628  git push origin feature-documentation-screenshots 
+ 1629  git status
+ 1630  git add README.md 
+ 1631  git commit -m "Refined Screenshot Section"
+ 1632  git push origin feature-documentation-screenshots
+ 1633  clear
+ 1634  git status
+ 1635  git checkout dev
+ 1636  git pull origin dev
+ 1637  clear
+ 1638  git status
+ 1639  git checkout main
+ 1640  git merge dev
+ 1641  clear
+ 1642  git status
+ 1643  git push orign main
+ 1644  git push origin main
+ 1645  git status
+ 1646  clear
+ 1647  git status
+ 1648  git checkout -b feature-documentation-credits
+ 1649  git status
+ 1650  git add README.md 
+ 1651  git commit -m "Added github links to Authors"
+ 1652  git push origin feature-documentation-credits
+ 1653  git status
+ 1654  git checkout -b feature-documentation-swagger
+ 1655  git push origin feature-documentation-swagger
+ 1656  git status
+ 1657  git add README.md 
+ 1658  git commit -m "Updated Swagger & Redoc Info"
+ 1659  git push origin feature-documentation-swagger
+ 1660  git checkout -b feature-documentation-screenshots
+ 1661  git status
+ 1662  git add public/
+ 1663  git commit -m "Added Screenshots"
+ 1664  git add README.md 
+ 1665  git commit -m "Added Screenshots Section"
+ 1666  git push origin feature-documentation-screenshots 
+ 1667  git status
+ 1668  git checkout -b feature-ai-documentation
+ 1669  git status
+ 1670  git add GREENFUND_AI_API_DOCUMENATION.md 
+ 1671  git commit -m "Added AI API Documentation"
+ 1672  git status
+ 1673  git add old-ai-api-doc old-ai-api-doc2
+ 1674  git commit -m "backup of old ai api docs"
+ 1675  git status
+ 1676  git add -A
+ 1677  git commit -m "deleted old AI API docs"
+ 1678  git status
+ 1679  git push origin feature-ai-documentation
+ 1680  git status
+ 1681  git checkout --help
+ 1682  clear
+ 1683  git checkout development 
+ 1684  git pull origin development
+ 1685  clear
+ 1686  git status
+ 1687  git checkout main
+ 1688  git merge development
+ 1689  clear
+ 1690  git push origin main
+ 1691  git status
+ 1692  cd moringa/project/
+ 1693  ls
+ 1694  cd greenfund-backend/
+ 1695  code .
+ 1696  git checkout -b development origin/development
+ 1697  git status
+ 1698  git branch
+ 1699  git pull origin development
+ 1700  Joe Wanjema
+ 1701  4:27 PM
+ 1702  ├── app/
+ 1703  │ ├── routers/
+ 1704  │ │ ├── **init**.py
+ 1705  │ │ ├── activities.py
+ 1706  │ │ ├── auth.py
+ 1707  │ │ ├── badges.py
+ 1708  │ │ ├── chatbot.py
+ 1709  │ │ ├── climate_actions.py
+ 1710  │ │ ├── climate.py
+ 1711  │ │ ├── farms.py
+ 1712  │ │ ├── forum.py
+ 1713  │ │ ├── notifications.py
+ 1714  │ │ ├── soil.py
+ 1715  │ │ ├── test_router.py
+ 1716  │ │ └── users.py
+ 1717  │ ├── **init**.py
+ 1718  │ ├── carbon_model.py
+ 1719  │ ├── climate_rules.py
+ 1720  │ ├── database.py
+ 1721  │ ├── main.py
+ 1722  │ ├── models.py
+ 1723  │ ├── recommendations.py
+ 1724  │ ├── schemas.py
+ 1725  │ ├── security.py
+ 1726  │ ├── soil_model.py
+ 1727  │ └── utils.py
+ 1728  ├── tests/
+ 1729  │ ├── **init**.py
+ 1730  │ ├── conftest.py
+ 1731  │ └── test_auth.py
+ 1732  ├── alembic/
+ 1733  │ ├── versions/
+ 1734  │ │ ├── 03ae600d10ce_add_badge_and_userbadge_tables.py
+ 1735  │ │ ├── 8dc493c306c7_add_badge_models_and_user_relationship.py
+ 1736  │ │ └── f078b8a06b59_add_notification_model.py
+ 1737  │ ├── env.py
+ 1738  │ ├── README
+ 1739  │ └── script.py.mako
+ 1740  ├── .env
+ 1741  ├── .env.example
+ 1742  ├── .gitignore
+ 1743  ├── alembic.ini
+ 1744  ├── BACKEND_STRUCTURE.md
+ 1745  ├── docker-compose.yml
+ 1746  ├── Dockerfile
+ 1747  ├── README.md
+ 1748  clear
+ 1749  git status
+ 1750  git branch feature/schemas-and-utils
+ 1751  git switch feature/schemas-and-utils 
+ 1752  git status
+ 1753  git add app/schemas.py app/utils.py 
+ 1754  git commit -m "Created schemas and helper utilities"
+ 1755  git push origin feature/schemas-and-utils 
+ 1756  git branch feature/carbon-soil-models
+ 1757  git switch feature/carbon-soil-models
+ 1758  git status
+ 1759  git add app/carbon_model.py app/soil_model.py 
+ 1760  git commit -m "Added logic for Carbon and Soil"
+ 1761  git push origin feature/carbon-soil-models 
+ 1762  git branch feature/auth-and-security
+ 1763  git switch feature/auth-and-security
+ 1764  git commit -m "Added auth routes & auth testing"
+ 1765  git push origin feature/auth-and-security 
+ 1766  git branch
+ 1767  git branch feature/secondary-routers
+ 1768  git switch feature/secondary-routers
+ 1769  git status
+ 1770  git add app/routers/chatbot.py app/routers/farms.py app/routers/forum.py app/routers/notifications.py app/routers/soil.py 
+ 1771  git commit -m "Added Endpoints forums, farms, chatbot, notifications, soil"
+ 1772  git push origin feature/secondary-routers 
+ 1773  git branch feature/testing
+ 1774  git switch feature/testing
+ 1775  git status
+ 1776  git add app/routers/test_router.py tests/conftest.py 
+ 1777  git commit -m "Added & configure test suite"
+ 1778  git branch feature/documentation
+ 1779  git switch feature/documentation
+ 1780  git status
+ 1781  git add .env.example README.md 
+ 1782  git commit -m "Added backend documentation & setup sample"
+ 1783  git push origin feature/documentation 
+ 1784  git status
+ 1785  git switch development
+ 1786  git pull origin development 
+ 1787  clear
+ 1788  git status
+ 1789  cd ..
+ 1790  ls
+ 1791  git clone git@github.com:edwin3v3/greenfund-frontend.git
+ 1792  cd greenfund-frontend/
+ 1793  git status
+ 1794  clear
+ 1795  ls
+ 1796  git branch
+ 1797  git checkout dev
+ 1798  git branch
+ 1799  git 
+ 1800  code .
+ 1801  clear
+ 1802  git status
+ 1803  git add .
+ 1804  git commit -m "Added cmpnts btns, modal, tabs, cards"
+ 1805  git push origin feature/component-library
+ 1806  git checkout -b feature/forms-and-validation
+ 1807  git checkout -b feature-content-seeding
+ 1808  git checkout -b feature-documentation-frontend
+ 1809  git push origin feature-documentation-frontend 
+ 1810  git branch
+ 1811  git checkout -b feature-frontend-testing
+ 1812  git push origin feature-frontend-testing 
+ 1813  git status
+ 1814  git add README.md 
+ 1815  git commit -m "Added frontend documentation"
+ 1816  git add .
+ 1817  git commit -m "Added Jest and RTL Tests"
+ 1818  git status
+ 1819  git checkout -b feature-frontend-testing
+ 1820  git push origin feature-frontend-testing 
+ 1821  git push origin feature-documentation-frontend 
+ 1822  git status
+ 1823  git switch feature/component-library 
+ 1824  git status
+ 1825  git push origin feature/component-library 
+ 1826  git branch
+ 1827  git switch dev
+ 1828  git pull origin dev
+ 1829  git status
+ 1830  cd ..
+ 1831  cd greenfund-backend/
+ 1832  git branch
+ 1833  git pull origin development 
+ 1834  git status
+ 1835  code .
+ 1836  cd ..
+ 1837  cd greenfund-frontend/
+ 1838  code .
+ 1839  . "\home\edwin101\.cursor-server\bin\d1289018cc3fcc395487f65455e31651734308d0/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh"
+ 1840  ls
+ 1841  cd moringa/
+ 1842  ls
+ 1843  cd ..
+ 1844  clear
+ 1845  mkdir work26
+ 1846  cd work26/
+ 1847  git clone git@github.com:edwin3v3/cursor-caas.git
+ 1848  cd cursor-caas/
+ 1849  clear
+ 1850  code .
+ 1851  cursor
+ 1852  ls
+ 1853  cd moringa/
+ 1854  ls
+ 1855  cd project/
+ 1856  ls
+ 1857  cd greenfund-frontend/
+ 1858  code .
+ 1859  cd ..
+ 1860  sudo apt update && sudo apt upgrade -y
+ 1861  npm install
+ 1862  npm run dev
+ 1863  cursor
+ 1864  ls
+ 1865  cd work26/
+ 1866  ls
+ 1867  cd cursor-caas/
+ 1868  cursor .
+ 1869  npm install
+ 1870  npm run dev
+ 1871  ls
+ 1872  cd work26/
+ 1873  ls
+ 1874  cd cursor-caas/
+ 1875  ls
+ 1876  cursor .
+ 1877  ls
+ 1878  cd work26/
+ 1879  ls
+ 1880  md llmtoolkit
+ 1881  mkdir llmtoolkit
+ 1882  cd llmtoolkit/
+ 1883  cursor .
+ 1884  clear
+ 1885  ls
+ 1886  python main.py
+ 1887  main.py
+ 1888  python --version
+ 1889  git status
+ 1890  source venv/bin/activate
+ 1891  which python
+ 1892  python --version
+ 1893  source venv/bin/activate
+ 1894  main.py
+ 1895  python main.py
+ 1896  exit
+ 1897  cd ..
+ 1898  cd project
+ 1899  ls
+ 1900  cd greenfund-backend/
+ 1901  code .
+ 1902  sudo apt install python-3
+ 1903  cd..
+ 1904  python --version
+ 1905  clear
+ 1906  ptython -m venv .venv
+ 1907  python -m venv .venv
+ 1908  source .venv/bin/activate
+ 1909  pip env install click pydantic
+ 1910  pip venv install click pydantic
+ 1911  pip install click pydantic
+ 1912  pip install --upgrade pip
+ 1913  clear
+ 1914  history > history_of_commands.txt
+ 1915  git status
+ 1916  git --help
+ 1917  git add .
+ 1918  clear
+ 1919  pip freeze > requirements.txt
+ 1920  git init
+ 1921  git add .
+ 1922  git commit initial
+ 1923  git commit -m "Initial Commit"
+ 1924  clear
+ 1925  git remote add origin git@github.com:edwin3v3/LLM_Toolkit.git
+ 1926  git branch -M main
+ 1927  git push -u origin main
+ 1928  git status
+ 1929  git add .
+ 1930  git commit -m "Modified .gitIgnore"
+ 1931  git status
+ 1932  git push -u origin main
+ 1933  git pull
+ 1934  git pull origin main
+ 1935  git pull --rebase
+ 1936  history > history_of_commands.txt
+ 1937  clear
+ 1938  pip install openaisdk
+ 1939  pip install click
+ 1940  pip install typer
+ 1941  pip install openai
+ 1942  cler
+ 1943  clear
+ 1944  history > history_of_commands.txt
+ 1945  pip install ruff pre-commit
+ 1946  touch pyproject.toml
+ 1947  touch .pre-commit-config.yaml
+ 1948  pre-commit install
+ 1949  python --version
+ 1950  cd ..
+ 1951  pyenv --help
+ 1952  pyenv --versions
+ 1953  pyenv versions
+ 1954  pyenv install 3.12.9
+ 1955  pip freeze >  requirements.txt
+ 1956  clear
+ 1957  deactivate
+ 1958  rm -rf .venv
+ 1959  pyenv which
+ 1960  pyenv which 3.12.9
+ 1961  pyenv --help
+ 1962  pyenv global 3.12.9
+ 1963  pyenv global
+ 1964  rm -rf .venv
+ 1965  cd work26/llmtoolkit/
+ 1966  pyenv --version
+ 1967  python --version
+ 1968  python3.12 -m venv .venv
+ 1969  source .venv/bin/activate
+ 1970  pip install -r requirements.txt
+ 1971  pip install --upgrade pip
+ 1972  pip install ruff pre-commit
+ 1973  clear
+ 1974  pip freeze >  requirements.txt
+ 1975  pip install openai openai-agents
+ 1976  clear
+ 1977  pip freeze >  requirements.txt
+ 1978  history > history_of_commands.txt
+ 1979  pre-commit install
+ 1980  pre-commit run --all-files
+ 1981  git ls-remote --tags https://github.com/edwin3v3/llm-reliability-toolkit.git
+ 1982  pre-commit clean
+ 1983  pre-commit install
+ 1984  pre-commit run --all-files
+ 1985  git status
+ 1986  git add requirements.txt .pre-commit-config.yaml pyproject.toml 
+ 1987  pre-commit run --all-files
+ 1988  git status
+ 1989  git add cli.py 
+ 1990  pre-commit run --all-files
+ 1991  history > history_of_commands.txt
+ 1992  git status
+ 1993  git push origin main
+ 1994  git status
+ 1995  touch history_commands.txt
+ 1996  history > history_commands.txt
