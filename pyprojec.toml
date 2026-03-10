@@ -1,0 +1,13 @@
+[tool.ruff]
+# Target Python version
+requires-python = ">=3.11"
+line-length = 88
+
+[tool.ruff.lint]
+# Enable Pyflakes (F), Isort (I), and Pycodestyle (E)
+select = ["F", "E", "W", "I"]
+ignore = []
+
+[tool.ruff.format]
+# Use double quotes, similar to Black
+quote-style = "double"
